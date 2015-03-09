@@ -11,6 +11,9 @@ body {
     color: #333;
     font: 75%/1.5 Arial,Helvetica,sans-serif;
 }
+body{
+	margin: 0;
+}
 .page{
 	background: none repeat scroll 0 0 #f5f5f5;
     min-width: 1140px;
@@ -28,4 +31,151 @@ body {
 .header-container{
 	background: none repeat scroll 0 0 #111111;
 	width: 100%;
+}
+.redes-top{
+	background: none repeat scroll 0 0 #1d1c1a;
+	border-bottom: 1px solid #2f2f2f;
+	float: left;
+	height: 24px;
+	margin: 0 auto;
+	width: 100%;
+}
+.redes-top .redes-top-conteudo{
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 1120px;
+}
+.redes-top .welcome-msg{
+	color: #fff;
+	margin-top: 3px;
+}
+.welcome-msg{
+	float: left;
+}
+p{
+	margin: 0 0 5px;
+}
+.contato-top{
+	color: #fff;
+	float: right;
+	width: 45%;
+}
+.contato-top a{
+	background: none repeat scroll 0 0 #9a1212;
+	border-right: 1px solid #fff;
+	color: #fff;
+	float: right;
+	height: 18px;
+	padding: 3px 20px;
+}
+a{
+	text-decoration: none;
+	transition: all 0.1s linear 0s;
+}
+a{
+	outline: 0 none;
+}
+.contato-top .twitter span {
+    background: url("../images/icones-redes/icon-twitter.png") no-repeat scroll 0 0 / 18px auto rgba(0, 0, 0, 0);
+    float: left;
+    height: 21px;
+    width: 18px;
+}
+.contato-top .face span {
+    background: url("../images/icones-redes/icon-facebook.png") no-repeat scroll 0 0 / 18px auto rgba(0, 0, 0, 0);
+    float: left;
+    height: 21px;
+    width: 18px;
+}
+.contato-top .contato {
+    background: url("../images/icone-contato-topo.png") no-repeat scroll 20px 3px #9a1212;
+    padding: 3px 20px 3px 47px;
+}
+.contato-top .contato:hover {
+    background: url("../images/icone-contato-topo.png") no-repeat scroll 20px 3px #cd1818;
+}
+.contato-top .fone{
+	background: url("../images/icones-fone-topo.png") no-repeat scroll 20px 3px rgba(0 , 0, 0, 0);
+	border-right: 1px solid #fff;
+	float: right;
+	padding: 3px 20px 3px 47px;
+}
+.clearer::after, .header-container::after, .header-container .top-container::after, .header::after, .top-bar::after, .quick-access::after, .form-search::after, #nav::after, .main::after, .footer::after, .footer .form-subscribe::after, .footer-container .bottom-container::after, .col-main::after, .col2-set::after, .col3-set::after, .col4-set::after, .search-autocomplete li::after, .block .block-content::after, .block .actions::after, .block li.item::after, .block-poll li::after, .block-layered-nav .currently li::after, .page-title::after, .products-grid::after, .products-list li.item::after, .box-account .box-head::after, .dashboard .box .box-title::after, .order-info ul::after, .box-reviews li.item::after, .box-tags li.item::after, .pager::after, .sorter::after, .ratings::after, .add-to-box::after, .add-to-cart::after, .product-essential::after, .product-collateral::after, .product-tabs::after, .product-view .product-img-box .more-views ul::after, .product-view .box-tags .form-add::after, .product-view .product-shop .short-description::after, .product-view .box-description::after, .product-options .options-list li::after, .product-options-bottom::after, .product-review::after, .cart::after, .cart-collaterals::after, .cart .crosssell li.item::after, .opc .step-title::after, .checkout-progress::after, .multiple-checkout .place-order::after, .group-select li::after, .form-list li::after, .form-list .field::after, .buttons-set::after, .page-print .print-head::after, .advanced-search-summary::after, .gift-messages-form .item::after, .send-friend .form-list li p::after, #checkout-step-login .col2-set .col-1::after, #checkout-step-login .col2-set .col-2::after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+.header {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 1120px;
+}
+.header .logo {
+    display: block;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: none !important;
+}
+img {
+    border: 0 none;
+    height: auto;
+    vertical-align: top;
+}
+img{
+	border: 0 none;
+
+}
+.conteudo-header{
+	float: right;
+	margin-top: 7px;
+	width: 420px;
+}
+.conteudo-menu-header {
+    border-bottom: 1px solid #2f2f2f;
+    float: right;
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+    width: 420px;
+}
+.header .menu-cliente{
+	float: left;
+	width: 420px;
+}
+ul, ol, dl, dt, dd {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.header .links li {
+    color: #bdbfc3;
+}
+.links li{
+	display: inline;
+}
+.menu-cliente li{
+	background: url("../images/li-topo.png") no-repeat scroll 0 5px rgba(0,0,0,0);
+	margin-right: 8px;
+	padding-left: 8px;
+}
+.header .links a{
+	color: #96989b;
+}
+a{
+	text-decoration: none;
+	transition: all 0.1s linear 0s;
+}
+.header .links li{
+	color: #bdbfc3;
+}
+.links li{
+	display: inline;
+}
+.menu-cliente li.login-head {
+    float: right;
+    margin-right: 0;
 }
